@@ -29,7 +29,7 @@ function currentLine(currentLinePeople) {
       num = i + 1;
       theLineString = theLineString + num + ". " + currentLinePeople[i];
       if (num < currentLinePeople.length) {
-        theLineString = theLineString + " ,";
+        theLineString = theLineString + ", ";
       }
     }
     return theLineString;
